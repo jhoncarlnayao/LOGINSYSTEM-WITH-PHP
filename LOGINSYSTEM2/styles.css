@@ -1,0 +1,74 @@
+body{
+
+    background-image: url("https://i.pinimg.com/564x/dd/0d/5b/dd0d5b757fc1dc69a1d1bfcc05dc6430.jpg");
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+}
+
+.card{
+    width: 23pc;
+    height: 42pc;
+    background-image: url(c2c331c70027667d7facf7835dc1e947.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-clip: border-box;
+    border-radius: 25px 25px 25px 25px;
+}
+
+.mysocial{
+    position: relative;
+    left: 2rem;
+    font-family: "Inter", Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+
+.box{
+    position:absolute;
+    bottom: 10px;
+    width: 23pc;
+    height: 13pc;
+    border-radius: 0px 25px 25px 25px;
+    background-color:#161A30 ;
+}
+
+.welcome{
+    position: relative;
+    left: 21px;
+    font-size: 15px;
+    color: white;
+    font-family: "Inter", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.box button{
+    letter-spacing: 3px;
+    font-size: 20px;
+    color: white;
+    position: relative;
+    left: 20px;
+    width: 20pc;
+    height: 3pc;
+    background-color:#31304D;
+    border-radius: 20px;
+    transition: color 0.3s ease,background-color 0.3s ease;
+}
+
+button:hover{
+    background-color: white;
+    color: black;
+}
+
+.create{
+    position: inherit;
+    left: 12.3pc;
+    font-family: "Inter";
+    font-weight: bolder;
+    color: white;
+    font-size: 13px;
+}
+

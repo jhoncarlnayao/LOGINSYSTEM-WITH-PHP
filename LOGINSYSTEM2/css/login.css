@@ -1,0 +1,145 @@
+body{
+  background-image: url(bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.container {
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.card {
+width: 23pc;
+height: 42pc;
+/* background-image: url(c2c331c70027667d7facf7835dc1e947.jpg); */
+background-color: #b6bbc4;
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+background-clip: border-box;
+border-radius: 25px 25px 25px 25px;
+}
+
+.box {
+position: absolute;
+top: 9px;
+width: 23pc;
+height: 16pc;
+border-radius: 25px 25px 0px 25px;
+background-color: #161a30;
+}
+
+h1 {
+position: relative;
+top: 5pc;
+left: 20px;
+color: white;
+font-family: "Inter", monospace;
+font-size: 35px;
+letter-spacing: 1px;
+font-weight: bolder;
+}
+
+.box img {
+position: relative;
+bottom: 4pc;
+left: 10px;
+}
+
+.box p {
+position: relative;
+top: 1pc;
+left: 20px;
+color: white;
+font-family: "Inter", monospace;
+font-size: 13px;
+letter-spacing: 1px;
+font-weight: bolder;
+}
+
+.myemail {
+position: relative;
+top: 20pc;
+left: 1.5pc;
+width: 300px;
+background: #b6bbc4;
+border: none;
+outline: none;
+padding: 12px 12px 12px 12px;
+border-bottom: 1px solid black;
+transition: transform 0.3s ease;
+}
+
+.mypassword {
+position: relative;
+top: 22pc;
+left: 1.5pc;
+width: 300px;
+background: #b6bbc4;
+border: none;
+outline: none;
+padding: 12px 12px 12px 12px;
+border-bottom: 1px solid black;
+transition: transform 0.3s ease;
+}
+
+.submit {
+letter-spacing: 3px;
+font-size: 20px;
+color: white;
+position: relative;
+top: 22pc;
+left: 20px;
+width: 20pc;
+height: 3pc;
+outline: none;
+background-color: #31304d;
+border-radius: 20px;
+transition: color 0.3s ease, background-color 0.3s ease;
+}
+
+.submit:hover {
+background-color: white;
+color: black;
+}
+
+.checkbox {
+position: relative;
+top: 24.4pc;
+right: 19pc;
+}
+
+.terms {
+position: relative;
+top: 21.5pc;
+left: 3pc;
+font-size: 14px;
+color: black;
+font-family: "Inter", monospace;
+}
+
+
+.myemail:focus,
+.mypassword:focus {
+transform: scale(1.04);
+background-color: white;
+border-radius: 20px;
+border-bottom: none;
+}
+
+
+
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgba(0,0,0,0.5); /* Black w/ opacity */
+}

@@ -1,0 +1,164 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  width: 23pc;
+  height: 42pc;
+  /* background-image: url(c2c331c70027667d7facf7835dc1e947.jpg); */
+  background-color: #b6bbc4;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-clip: border-box;
+  border-radius: 25px 25px 25px 25px;
+}
+
+.box {
+  position: absolute;
+  top: 9px;
+  width: 23pc;
+  height: 11pc;
+  border-radius: 25px 25px 0px 25px;
+  background-color: #161a30;
+}
+
+h1 {
+  position: relative;
+  top: 60px;
+  left: 20px;
+  color: white;
+  font-family: "Inter", monospace;
+  font-size: 25px;
+  font-weight: bolder;
+}
+
+.box img {
+  position: relative;
+  left: 10px;
+  bottom: 60px;
+}
+
+.myfullname {
+  position: relative;
+  top: 14pc;
+  left: 1.5pc;
+  width: 300px;
+  background: #b6bbc4;
+  border: none;
+  outline: none;
+  padding: 12px 12px 12px 12px;
+  border-bottom: 1px solid black;
+  transition: transform 0.3s ease;
+}
+
+
+.myemail {
+  position: relative;
+  top: 16pc;
+  left: 1.5pc;
+  width: 300px;
+  background: #b6bbc4;
+  border: none;
+  outline: none;
+  padding: 12px 12px 12px 12px;
+  border-bottom: 1px solid black;
+  transition: transform 0.3s ease;
+}
+
+.myphonenumber {
+  position: relative;
+  top: 18pc;
+  left: 1.5pc;
+  width: 300px;
+  background: #b6bbc4;
+  border: none;
+  outline: none;
+  padding: 12px 12px 12px 12px;
+  border-bottom: 1px solid black;
+  transition: transform 0.3s ease;
+}
+
+.mypassword {
+  position: relative;
+  top: 20pc;
+  left: 1.5pc;
+  width: 300px;
+  background: #b6bbc4;
+  /* border-bottom: 2px solid black; */
+  /* padding-bottom: 5px; */
+  border: none;
+  outline: none;
+  padding: 12px 12px 12px 12px;
+  border-bottom: 1px solid black;
+  transition: transform 0.3s ease;
+}
+
+.confirmpassword {
+  position: relative;
+  top: 22pc;
+  left: 1.5pc;
+  width: 300px;
+  background: #b6bbc4;
+  /* border-bottom: 2px solid black; */
+  /* padding-bottom: 5px; */
+  border: none;
+  outline: none;
+  padding: 12px 12px 12px 12px;
+  border-bottom: 1px solid black;
+  transition: transform 0.3s ease;
+}
+
+.myfullname:focus,
+.myemail:focus,
+.mypassword:focus,
+.myphonenumber:focus,
+.confirmpassword:focus {
+  transform: scale(1.04);
+  background-color: white;
+  border-radius: 20px;
+  border-bottom:none;
+}
+
+/* .myfullname input[type="text"]{
+    border: none;
+    outline: none;
+    width: 100%;
+} */
+
+.checkbox {
+  position: relative;
+  top: 24.4pc;
+  right: 19pc;
+}
+
+.terms {
+  position: relative;
+  top: 21.5pc;
+  left: 3pc;
+  font-size: 14px;
+  color: black;
+  font-family: "Inter", monospace;
+}
+
+button {
+  letter-spacing: 3px;
+  font-size: 20px;
+  color: white;
+  position: relative;
+  top: 22pc;
+  left: 20px;
+  width: 20pc;
+  height: 3pc;
+  outline: none;
+  background-color: #31304d;
+  border-radius: 20px;
+  transition: color 0.3s ease, background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: white;
+  color: black;
+}
